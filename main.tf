@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "rg" {
-  name     = "lockrg"
+  name     = "cirg"
   location = "east us"
   tags = {
     env       = "prod"
